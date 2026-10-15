@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BrieflyAI</title><link rel="stylesheet" href="popup.css"></head>
+<body><main class="popup">
+<header class="brand"><img class="brand-icon" src="icons.png" alt=""><div><strong>BrieflyAI</strong><span>Read less, understand more.</span></div><button id="settings" class="icon" aria-label="Open settings">⚙</button></header>
+<section id="articleCard" class="card muted"><p id="articleStatus">Ready to read the active tab.</p></section>
+<label for="mode">Summary mode</label>
+<select id="mode"><option value="quick">Quick Summary</option><option value="detailed">Detailed Summary</option><option value="takeaways">Key Takeaways</option><option value="beginner">Beginner Mode</option><option value="technical">Technical Mode</option><option value="steps">Step-by-Step Guide</option></select>
+<button id="summarize" class="primary">Summarize Article <span>→</span></button><button id="saved" class="secondary">View Saved Summaries</button><p id="status" class="status" role="status"></p>
+</main><script type="module" src="popup.js"></script></body></html>
