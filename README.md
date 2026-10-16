@@ -4,6 +4,10 @@
 
 BrieflyAI is a Chrome Manifest V3 extension that extracts readable content from the current web page, sends it through a local proxy to Groq, and presents an organized summary in a responsive side panel. It also provides article-aware chat, saved summaries, model selection, and synchronized light/dark themes.
 
+Copyright © 2026 [Ghulam Muttaqa Shah](https://github.com/ghulammuttaqashah).
+
+Licensed under the [MIT License](./LICENSE).
+
 > The extension is designed for public web articles. Browser-internal pages, extension pages, and some paywalled pages cannot be read by the browser content script.
 
 ## What BrieflyAI does
